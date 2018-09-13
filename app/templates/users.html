@@ -1,3 +1,23 @@
-<div>
-    usuarios
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Usuarios</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<body>
+		<form id="userForm" name="userForm">
+			<h2>Usuario</h2><hr>
+			<label>Nombres</label>
+			<input type="text" name="name" id="name"><br>
+			<label>Apellidos</label>
+			<input type="text" name="lastName" id="lastName"><br>
+			<label>Documento</label>
+			<input type="number" name="document" id="document"><br>
+			<label>Teléfono</label>
+			<input type="number" name="phone" id="phone"><br>
+			<button type="button" onclick="saveUser()">Guardar</button>
+		</form>
+	</body>
+</html>
